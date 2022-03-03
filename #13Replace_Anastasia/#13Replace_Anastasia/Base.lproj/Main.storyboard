@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_13Replace_Anastasia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T4T-oD-leE">
+                                <rect key="frame" x="23" y="130" width="344" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ZCY-uy-EMG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="justified" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zac-N2-gR8">
+                                <rect key="frame" x="23" y="210" width="344" height="35"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cQ2-i7-azZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNT-v1-VwN">
+                                <rect key="frame" x="22.999999999999996" y="101" width="35.666666666666657" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4pe-NX-0BL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Replace" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szN-h2-cOs">
+                                <rect key="frame" x="23" y="181" width="66" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="YAV-7n-Ouu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V0d-Lv-zJt">
+                                <rect key="frame" x="23" y="292" width="344" height="273"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="273" id="0Cm-7y-laK"/>
+                                </constraints>
+                                <string key="text">hello world.  you would like to introduce hello in the world of today. My dreams are so nice.hello again.    hello people of the world.
+
+hey have a great day.          You hope for the best.    bye.good.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIE-Qh-Vvs">
+                                <rect key="frame" x="23" y="582" width="344" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="9aU-IX-JGd"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Replace">
+                                    <fontDescription key="titleFontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="replaceButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="het-kc-GM6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqd-Ly-HSm">
+                                <rect key="frame" x="23" y="263" width="140" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="VrH-Aq-KnE"/>
+                                </constraints>
+                                <string key="text">Please input text:	</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updated text should be displayed here." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" showsExpansionTextWhenTruncated="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="huU-CW-OFM">
+                                <rect key="frame" x="23" y="673" width="344" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="G5I-uh-YyJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Zac-N2-gR8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Kr-oh-yz9"/>
+                            <constraint firstItem="KIE-Qh-Vvs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5XV-U0-vd8"/>
+                            <constraint firstItem="V0d-Lv-zJt" firstAttribute="top" secondItem="Bqd-Ly-HSm" secondAttribute="bottom" constant="8" id="8yw-Vh-hTI"/>
+                            <constraint firstItem="Bqd-Ly-HSm" firstAttribute="leading" secondItem="Zac-N2-gR8" secondAttribute="leading" id="9o2-05-b11"/>
+                            <constraint firstItem="T4T-oD-leE" firstAttribute="top" secondItem="aNT-v1-VwN" secondAttribute="bottom" constant="8" id="Dtj-Ky-Zab"/>
+                            <constraint firstItem="huU-CW-OFM" firstAttribute="leading" secondItem="KIE-Qh-Vvs" secondAttribute="leading" id="EKv-WF-mU0"/>
+                            <constraint firstItem="V0d-Lv-zJt" firstAttribute="top" secondItem="Zac-N2-gR8" secondAttribute="bottom" constant="47" id="Fuk-f5-6Zh"/>
+                            <constraint firstItem="V0d-Lv-zJt" firstAttribute="leading" secondItem="Zac-N2-gR8" secondAttribute="leading" id="GWi-LY-YpY"/>
+                            <constraint firstItem="V0d-Lv-zJt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Hlf-Er-rkP"/>
+                            <constraint firstItem="Zac-N2-gR8" firstAttribute="top" secondItem="szN-h2-cOs" secondAttribute="bottom" constant="8" id="JGh-qV-J0t"/>
+                            <constraint firstItem="aNT-v1-VwN" firstAttribute="leading" secondItem="T4T-oD-leE" secondAttribute="leading" id="QIQ-j8-SIm"/>
+                            <constraint firstItem="T4T-oD-leE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="86" id="Wh8-X2-JAL"/>
+                            <constraint firstItem="KIE-Qh-Vvs" firstAttribute="top" secondItem="V0d-Lv-zJt" secondAttribute="bottom" constant="17" id="Xmu-MA-1dA"/>
+                            <constraint firstItem="KIE-Qh-Vvs" firstAttribute="leading" secondItem="V0d-Lv-zJt" secondAttribute="leading" id="a4B-fs-q3B"/>
+                            <constraint firstItem="T4T-oD-leE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aqS-G2-O15"/>
+                            <constraint firstItem="T4T-oD-leE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="e8Z-f1-0Ou"/>
+                            <constraint firstItem="Zac-N2-gR8" firstAttribute="top" secondItem="T4T-oD-leE" secondAttribute="bottom" constant="45" id="mM2-bJ-AhO"/>
+                            <constraint firstItem="Zac-N2-gR8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="23" id="oBN-Ih-paZ"/>
+                            <constraint firstItem="huU-CW-OFM" firstAttribute="top" secondItem="KIE-Qh-Vvs" secondAttribute="bottom" constant="37" id="tRs-mc-2Xg"/>
+                            <constraint firstItem="szN-h2-cOs" firstAttribute="leading" secondItem="Zac-N2-gR8" secondAttribute="leading" id="yJn-XC-aRC"/>
+                            <constraint firstItem="huU-CW-OFM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yjX-B9-MDG"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="findField" destination="T4T-oD-leE" id="63a-5E-Owx"/>
+                        <outlet property="inputTextView" destination="V0d-Lv-zJt" id="ms6-hx-R4x"/>
+                        <outlet property="replaceField" destination="Zac-N2-gR8" id="3vb-hv-tqI"/>
+                        <outlet property="updatedTextLabel" destination="huU-CW-OFM" id="a4P-k6-h5H"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="51.5625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
